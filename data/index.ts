@@ -52,7 +52,7 @@ export const gridItems = [
   {
     id: 5,
     title:
-      "Adoto estratégias para desenvolver código limpo, eficiente e de alta manutenibilidade.",
+      "Emprego práticas que garantem código limpo, performático e de fácil manutenção.",
     description: "Código Limpo",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",

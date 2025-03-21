@@ -36,22 +36,15 @@ export function Card({
           </p>
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <div className="relative flex items-center justify-center mb-4">
+          <div className="relative flex items-center justify-center mb-4 rounded-3xl overflow-hidden">
             <div
-              className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+              className="relative w-full overflow-hidden sm:h-[40vh] h-[30vh]"
               style={{ backgroundColor: "#13162D" }}
             >
               <img src="/bg.png" alt="bgimg" />
             </div>
             <img src={img} alt="cover" className="z-10 absolute bottom-0" />
           </div>
-          {/* <Image
-            src={img}
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
-          /> */}
         </CardItem>
         <CardItem translateZ="60" className="w-full">
           <div className="flex items-center">
