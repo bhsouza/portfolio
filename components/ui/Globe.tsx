@@ -227,10 +227,10 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
 export function WebGLRendererConfig() {
   const { gl, size } = useThree();
-
+  const height = window.innerWidth < 768 ? size.height * 1.2 : size.height;
   useEffect(() => {
     gl.setPixelRatio(window.devicePixelRatio);
-    gl.setSize(size.width, size.height);
+    gl.setSize(size.width, height);
     gl.setClearColor(0xffaaff, 0);
   }, []);
 
