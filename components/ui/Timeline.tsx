@@ -31,7 +31,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     offset: ["start 10%", "end 50%"],
   });
 
-  const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
+  const maxHeight = ref.current ? ref.current.scrollHeight : 0;
+  const heightTransform = useTransform(scrollYProgress, [0, 1], [0, maxHeight]);
+
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
