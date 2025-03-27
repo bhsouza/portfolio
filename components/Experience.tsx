@@ -3,7 +3,7 @@ import { MyTimeline } from "./ui/MyTimeline";
 
 const Experience = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="experience" className="py-20">
       <div className="w-full">
         <MyTimeline />
       </div>
