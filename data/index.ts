@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "Sobre", link: "#about" },
   { name: "Projetos", link: "#projects" },
-  { name: "Testemunhos", link: "#testimonials" },
+  { name: "Experiência", link: "#experience" },
   { name: "Contato", link: "#contact" },
 ];
 
@@ -79,7 +79,7 @@ export const projects = [
     des: "Uma rede social para cachorros, onde os usuários podem compartilhar fotos de seus pets.",
     img: "/p1.svg",
     iconLists: ["/next.svg", "/ts.svg", "/css.svg", "/vercel.svg"],
-    linkGithub: "https://github.com/bhsouza/dogsNext",
+    linkGithub: "https://github.com/breno-hs/dogsNext",
     linkDeploy: "https://dogs-next-pearl.vercel.app/",
   },
   {
@@ -95,7 +95,7 @@ export const projects = [
       "/nextauth.svg",
       "/vercel.svg",
     ],
-    linkGithub: "https://github.com/bhsouza/yc_directory",
+    linkGithub: "https://github.com/breno-hs/yc_directory",
     linkDeploy: "https://yc-directory-beige.vercel.app/",
   },
   {
@@ -104,8 +104,8 @@ export const projects = [
     des: "Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade.",
     img: "/p3.svg",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-    linkGithub: "https://github.com/bhsouza/bikcraft",
-    linkDeploy: "https://bhsouza.github.io/bikcraft/",
+    linkGithub: "https://github.com/breno-hs/bikcraft",
+    linkDeploy: "https://breno-hs.github.io/bikcraft/",
   },
   {
     id: 4,
@@ -113,8 +113,8 @@ export const projects = [
     des: "Site falando um pouco de animais. Foco foi treinar animações e slides.",
     img: "/p4.svg",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-    linkGithub: "https://github.com/bhsouza/Animais_Fantasticos",
-    linkDeploy: "https://bhsouza.github.io/Animais_Fantasticos/",
+    linkGithub: "https://github.com/breno-hs/Animais_Fantasticos",
+    linkDeploy: "https://breno-hs.github.io/Animais_Fantasticos/",
   },
 ];
 
@@ -219,13 +219,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/breno-hs",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/brenohs/",
   },
 ];
